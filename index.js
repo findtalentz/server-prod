@@ -22,8 +22,9 @@ app.use("/api/webhook", express.raw({ type: "application/json" }), webhook);
 // Optimized CORS configuration
 const whitelist = [
   "https://findtalentz.com",
+  "https://www.findtalentz.com",
+  "https://admin.findtalentz.com",
   "http://localhost:3000",
-  "https://talentz-admin.netlify.app",
 ];
 
 const whitelistSet = new Set(whitelist);
