@@ -1,0 +1,3 @@
+{{text}}
+
+Think your are a translator and you have to Translate the given text into English and return only the translated text (or HTML body) without adding any extra words, explanations, or notes.
